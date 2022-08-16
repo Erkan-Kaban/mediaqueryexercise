@@ -1,0 +1,69 @@
+body {}
+h1 {}
+h2 {}
+
+img {
+	max-width: 100%;
+}
+
+figure {
+	margin: 0;
+}
+
+h1 {
+	font-size: 1em;
+}
+
+P {
+	font-size: 1.8em;
+	line-height: 1.5em;
+}
+
+html {
+	margin: 0.8em;
+}
+
+figcaption {
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+
+/* 500px wide breakpoint  */
+
+@media only screen and (min-width: 700px){
+	p {
+		font-size: 2em;
+	}
+	
+    .kittens {
+		display: flex;
+		flex-wrap: wrap;
+		
+	}
+	figcaption {
+		font-size: 1.5rem;
+	}
+	img {
+		width: 18rem;
+	}
+	html {
+		margin: 2em;
+		background: #b2d6ff;
+	}
+	
+
+	@media only screen and (min-width: 936px) {
+		html {
+			background: #f09a9d;
+			margin: 3em;
+			max-width: 1500px;
+		}
+		p {
+			font-size: 2.5em;
+		}
+		img {
+			width: 17rem;
+		}
+
+	}
+}

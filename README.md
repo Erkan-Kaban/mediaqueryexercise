@@ -1,0 +1,2 @@
+# MEDIA QUERY EXERCISE
+- In this exercise we had to start from a mobile width of the page, adjust the margin, fonts, img sizes to suit, then we went ahead and adjusted the screen to figure out for ourselves what the breakpoints were, from there we set media queries for those breakpoints, changed the background colors and adjusted everything accordingly.
